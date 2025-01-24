@@ -17,18 +17,26 @@ ExoBot is an open-source discord bot, and it's aim is to provide the essential a
 
 ## Installation
 
+1. Clone the repository
+
 ```
-cd your-bot-source
+git clone git@github.com:hstoklosa/exobot.git && cd exobot
+```
 
-git clone https://github.com/imexotic/ExoBot.git
-
+2. Create a virtual environment
+```
 python3 -m venv bot-env
-
 source bot-env/bin/activate
+```
 
+3. Install dependencies
+```
 pip install -r requirements.txt
+```
 
-python3 main.py
+5. Run the bot
+```
+python main.py
 ```
 
 ## 🖥️  Technologies
@@ -38,10 +46,10 @@ These technologies are required to run the bot.
 -  [Project Packages](https://github.com/imexotic/ExoBot/blob/main/requirements.txt)
 
 
+## 📝 License
 
-## 📝  License
+H. Stoklosa - hubert.stoklosa23@gmail.com
 
-[MIT License](https://github.com/imexotic/ExoBot/blob/main/LICENSE)
+Distributed under the MIT license. See `LICENSE` for more information.
 
-Copyright (c) 2022-present imexotic
-
+[https://github.com/hstoklosa](https://github.com/hstoklosa)
